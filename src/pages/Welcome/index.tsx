@@ -2,7 +2,7 @@ import React from "react";
 import { Text, Image } from "react-native";
 import wateringImg from "../../assets/watering.png";
 import Button from '../../components/Button'
-
+import { Feather } from '@expo/vector-icons';
 import * as S from "./styles";
 
 export function Welcome() {
@@ -22,8 +22,7 @@ export function Welcome() {
        activeOpacity={0.7}
     
       >
-        <Text>></Text>
-     
+          <Feather name="chevron-right"  />
       
       </S.ButtonSubmit>
     </S.Container>
