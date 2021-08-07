@@ -13,15 +13,10 @@ export const Title = styled.Text`
 font-size: 28px;
 font-weight: bold;
 text-align: center;
-color: colors.heading;
- fontSize: 28,
-    fontWeight: 'bold',
-    textAlign: 'center',
-    color: colors.heading,
-    marginTop: 38,
-    fontFamily: fonts.heading,
-    lineHeight: 34
-
+ color: #52665A; 
+margin-top:  38;
+font-family: 'Jost_400Regular';
+line-height:  34px;
 
 `;
 
