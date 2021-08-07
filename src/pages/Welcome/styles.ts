@@ -17,6 +17,19 @@ text-align: center;
 margin-top:  38;
 font-family: 'Jost_400Regular';
 line-height:  34px;
+`;
+
+export const Image = styled.Image`
+height: Dimensions.get('window')width * 0.7;
 
 `;
+
+export const SubTitle = styled.Text`
+text-align: center;
+font-size: 18px;
+padding-right: 20px;
+font-family: 'Jost_400Regular';
+`
+
+
 
