@@ -9,11 +9,12 @@ import {UserIdentification} from '../pages/UserIdentification'
 const stackRoutes = createStackNavigator();
 const AppRoutes: React.FC = () => (
   <stackRoutes.Navigator
-    headerMode="none" 
     screenOptions={{
+      headerShown: false,
       cardStyle: {
       backgroundColor: "#FFF"
-    }
+      }
+      
     }}
   >
 
